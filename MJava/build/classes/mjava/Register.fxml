@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="517.0" prefWidth="410.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mjava.RegisterController">
+   <children>
+      <Label layoutX="173.0" layoutY="38.0" text="Daftar" />
+      <Label layoutX="100.0" layoutY="126.0" text="Nama Lengkap" />
+      <Label layoutX="100.0" layoutY="206.0" text="Email" />
+      <Label layoutX="101.0" layoutY="290.0" text="Password" />
+      <TextField fx:id="nama_lengkap" layoutX="100.0" layoutY="153.0" />
+      <TextField fx:id="email" layoutX="100.0" layoutY="239.0" />
+      <PasswordField fx:id="password" layoutX="100.0" layoutY="317.0" />
+      <Button fx:id="btn_daftar" layoutX="169.0" layoutY="370.0" mnemonicParsing="false" onAction="#signup" text="Daftar" />
+      <Hyperlink fx:id="masuk" layoutX="75.0" layoutY="424.0" onAction="#login" text="Sudah memiliki akun? Masuk." />
+   </children>
+</AnchorPane>
